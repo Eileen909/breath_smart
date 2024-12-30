@@ -1,0 +1,44 @@
+
+.circle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 500px;
+    transition: 5s ease-in-out;
+}
+
+.one
+{
+    background-color: hwb(208 26% 22%);
+    height:350px ;
+    width:350px;
+}
+
+.two
+{
+    background-color: hwb(208 16% 36%);
+    height: 300px;
+    width: 300px;
+}
+
+.three
+{
+    
+    background-color: hwb(208 9% 53%);
+    height: 250px;
+    width: 250px;
+}
+
+.four
+{
+    background-color: hwb(207 24% 17%);
+    height: 200px;
+    width: 200px;
+}
+
+.circle:hover
+{
+    height: 200px;
+    width: 200px;
+}
