@@ -4,8 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 500px;
-    transition: 5s ease-in-out;
+    border-radius: 50%;
 }
 
 .one
@@ -13,6 +12,27 @@
     background-color: hwb(208 26% 22%);
     height:350px ;
     width:350px;
+    animation: oneAn 10s ease 0s infinite ;
+}
+
+@keyframes oneAn {
+    0%
+    {
+        height: 350px;
+        width: 350px;
+    }
+
+    50%
+    {
+        height: 215px;
+        width: 215px;
+    }
+
+    100%
+    {
+        height: 350px;
+        width: 350px;
+    }
 }
 
 .two
@@ -20,14 +40,53 @@
     background-color: hwb(208 16% 36%);
     height: 300px;
     width: 300px;
+    animation: twoAn 10s ease 0s infinite ;
 }
+@keyframes twoAn {
+    0%
+    {
+        height: 300px;
+        width: 300px;
+    }
 
+    50%
+    {
+        height: 210px;
+        width: 210px;
+    }
+
+    100%
+    {
+        height: 300px;
+        width: 300px;
+    }
+}
 .three
 {
     
     background-color: hwb(208 9% 53%);
     height: 250px;
     width: 250px;
+    animation: threeAn 10s ease 0s infinite;
+}
+@keyframes threeAn {
+    0%
+    {
+        height: 250px;
+        width: 250px;
+    }
+
+    50%
+    {
+        height: 205px;
+        width: 205px;
+    }
+
+    100%
+    {
+        height: 250px;
+        width: 250px;
+    }
 }
 
 .four
@@ -37,8 +96,16 @@
     width: 200px;
 }
 
-.circle:hover
-{
-    height: 200px;
-    width: 200px;
+@keyframes breathbro {
+    0%{
+        /* height: 350px;
+        width: 350px; */
+
+    }
+
+    100%{ 
+        
+        height: 200px;
+        width: 200px;       
+    }
 }
