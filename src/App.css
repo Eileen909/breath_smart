@@ -53,19 +53,6 @@ h1{
   text-align: left;
 }
 
-/* .bottom-image{
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  z-index: -1;
-}
-
-.bottom-image img{
-  width: 100%;
-  height: 100px;
-  object-fit: cover;
-} */
-
 @media(max-width:768px){
   .container{
     flex-direction:column;
