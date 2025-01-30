@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/LoginPage.css";
-import WaveBackground from "../components/WaveBackground.jsx";
+// import WaveBackground from "../components/WaveBackground.jsx";
 
 const LoginPage = () => {
     return(
         <div className="login-page">
-            <WaveBackground />
+            {/* <WaveBackground /> */}
             <div className="login-container">
                 <h1>Breat-Smart</h1>
                 <div className="login-content">
